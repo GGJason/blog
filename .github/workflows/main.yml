@@ -25,13 +25,9 @@ jobs:
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
       - uses: actions/checkout@v2
       - name: Configure git credentials
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         # You may pin to the exact commit or the version.
         # uses: OleksiyRudenko/gha-git-credentials@6132cfce45156e2c1562673f9be1a91a575ce879
         uses: OleksiyRudenko/gha-git-credentials@v2
-        with: 
-          token: $GITHUB_TOKEN
       # Runs a single command using the runners shell
       - name: Run a one-line script
         run: bash ./deploy.sh
