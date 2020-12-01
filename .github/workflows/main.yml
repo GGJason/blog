@@ -30,4 +30,4 @@ jobs:
       - name: Run a one-line script
         run: bash ./deploy.sh
         env:
-          GITHUB_TOKEN = ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
