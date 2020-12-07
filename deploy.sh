@@ -13,10 +13,10 @@ cd blog/.vuepress/dist
 # if you are deploying to a custom domain
 echo 'ggjason.tw' > CNAME
 
-git config --global user.email 'github-action@users.noreply.github.com'
+git config --global user.email 'ggjason.tw@gmail.com'
 git config --global user.name 'GitHub Action'
 
-git config user.email 'github-action@users.noreply.github.com'
+git config user.email 'ggjason.tw@gmail.com'
 git config user.name 'GitHub Action'
 echo $GITHUB_TOKEN
 git config user.password $GITHUB_TOKEN
