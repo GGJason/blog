@@ -39,7 +39,7 @@ module.exports = {
           link: 'https://policies.google.com/privacy?hl=en-US',
         },
         {
-          text: 'MIT Licensed | Copyright © 2018-present Vue.js',
+          text: 'MIT Licensed | Copyright © 2021 Vue.js & GGJason',
           link: '',
         },
       ],
