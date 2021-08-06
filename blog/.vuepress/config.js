@@ -1,4 +1,7 @@
 module.exports = {
+  markdown: {
+    lineNumbers: true
+  },
   title: 'GGJason Blog',
   description: 'This is a blog example built by VuePress',
   theme: '@vuepress/theme-blog', // OR shortcut: @vuepress/blog
@@ -44,5 +47,5 @@ module.exports = {
         },
       ],
     },
-  },
+  }
 }
