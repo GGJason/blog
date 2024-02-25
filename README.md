@@ -1,4 +1,5 @@
 # blog
+move to [Medium](https://medium.com/@ggjason.tw)
 
 > GGJason Blog
 
